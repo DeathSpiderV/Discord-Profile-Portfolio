@@ -12,20 +12,10 @@
 </p>
 
 
-``` bash <(curl -s https://tfc-plex.de/install.sh)```
-
-## Features
-
-
-
 ---
 
 ## 👀 Preview
 TFC-plex Demo: https://demo.tfc-plex.de/
-
-## 👀 Our Docs
-https://docs.tfc-plex.de/
-
 
 
 Dashboard (v1.5.0):
