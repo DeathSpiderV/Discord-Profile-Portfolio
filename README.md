@@ -7,7 +7,7 @@
 ---
 
 ## 👀 Preview
-Demo: https://dcppotfolio/
+Demo: https://deathspiderv.github.io/Discord-Profile-Portfolio/
 
 
 
