@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Profile Cards</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1e1e1e;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+        }
+        .profile-card {
+            background-color: #2b2b2b;
+            border-radius: 10px;
+            width: 350px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border: 1px solid #444;
+            overflow: hidden;
+            font-size: 14px;
+        }
+        .banner {
+            height: 150px;
+            background-image: url('https://via.placeholder.com/350x150');
+            background-size: cover;
+            background-position: center;
+        }
+        .profile-header {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            background-color: #2b2b2b;
+            position: relative;
+        }
+        .profile-header img {
+            border-radius: 50%;
+            width: 70px;
+            height: 70px;
+            border: 2px solid white;
+            margin-right: 10px;
+        }
+        .status-icon {
+            font-size: 20px;
+            color: red;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+        .badges {
+            display: flex;
+            position: absolute;
+            top: 10px;
+            right: 45px;
+        }
+        .badge {
+            width: 20px;
+            height: 20px;
+            margin-left: 5px;
+            border-radius: 50%;
+        }
+        .badge-orange { background-color: orange; }
+        .badge-green { background-color: green; }
+        .badge-blue { background-color: blue; }
+        .badge-purple { background-color: purple; }
+        .profile-details {
+            padding: 20px;
+        }
+        .profile-details h1 {
+            margin: 0;
+            font-size: 20px;
+        }
+        .profile-details p {
+            margin: 5px 0;
+        }
+        .about-me {
+            margin: 15px 0;
+            padding: 10px;
+            background-color: #1e1e1e;
+            border: 1px solid #444;
+            border-radius: 5px;
+        }
+        .about-me p {
+            margin: 5px 0;
+        }
+        .links {
+            margin-top: 15px;
+        }
+        .links p {
+            margin: 5px 0;
+        }
+        .links a {
+            color: #4caf50;
+            text-decoration: none;
+        }
+        .member-since, .note {
+            margin-top: 15px;
+            padding: 10px;
+            background-color: #1e1e1e;
+            border: 1px solid #444;
+            border-radius: 5px;
+        }
+        .note p {
+            margin: 5px 0;
+        }
+        .icons {
+            margin-top: 10px;
+            display: flex;
+            gap: 5px;
+        }
+        .icon {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #333;
+        }
+        /* Color Variations */
+        .theme1 .profile-header { background-color: #2b2b2b; }
+        .theme1 .about-me { background-color: #2e2e2e; }
+        .theme1 .member-since, .theme1 .note { background-color: #2e2e2e; }
+
+        .theme2 .profile-header { background-color: #3b3b3b; }
+        .theme2 .about-me { background-color: #3e3e3e; }
+        .theme2 .member-since, .theme2 .note { background-color: #3e3e3e; }
+
+        .theme3 .profile-header { background-color: #4b4b4b; }
+        .theme3 .about-me { background-color: #4e4e4e; }
+        .theme3 .member-since, .theme3 .note { background-color: #4e4e4e; }
+
+        .theme4 .profile-header { background-color: #5b5b5b; }
+        .theme4 .about-me { background-color: #5e5e5e; }
+        .theme4 .member-since, .theme4 .note { background-color: #5e5e5e; }
+    </style>
+</head>
+<body>
+    <div class="profile-card theme1">
+        <div class="banner"></div>
+        <div class="profile-header">
+            <img src="https://via.placeholder.com/70" alt="Profile Picture">
+            <div class="badges">
+                <div class="badge badge-orange"></div>
+                <div class="badge badge-green"></div>
+                <div class="badge badge-blue"></div>
+                <div class="badge badge-purple"></div>
+            </div>
+            <span class="status-icon">⛔</span>
+        </div>
+        <div class="profile-details">
+            <h1>! Sanatani Spider</h1>
+            <p>deathspider07</p>
+            <p>Death/End</p>
+            <div class="about-me">
+                <p>🚩 Sita Ram</p>
+                <p>Hi I'm DeathSpider</p>
+            </div>
+            <div class="links">
+                <p>🌐 <a href="https://spiderr.fun" target="_blank">spiderr.fun</a></p>
+                <p>📧 <a href="mailto:admin@spiderr.fun">admin@spiderr.fun</a></p>
+                <p>🔗 <a href="https://www.voidmc.fun" target="_blank">www.voidmc.fun</a></p>
+            </div>
+            <div class="member-since">
+                <p>Member Since</p>
+                <p>Sep 11, 2022</p>
+            </div>
+            <div class="note">
+                <p>®2024 Made By Death</p>
+            </div>
+            <div class="icons">
+                <div class="icon" style="background-color: orange;">🔔</div>
+                <div class="icon" style="background-color: green;">🔗</div>
+                <div class="icon" style="background-color: blue;">💬</div>
+                <div class="icon" style="background-color: purple;">⚙️</div>
+            </div>
+        </div>
+    </div>
+
+        </div>
+    </div>
+</body>
+</html>
