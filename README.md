@@ -4,7 +4,9 @@
 <p align="center" dir="auto">Made By DeathSpider</p>
 <p align="center">
   <a href="https://docs.tfc-plex.de/"><img alt="Docs" src="https://img.shields.io/website?down_color=lightred&down_message=Offline&label=Docs&up_color=blue&up_message=Online&url=https://docs.tfc-plex.de/"></a>
-
+  <a  href="https://github.com/privt00/tfc-plex/stargazers"><img src="https://img.shields.io/github/stars/privt00/tfc-plex?label=Stars %E2%AD%90" height="20"/></a>
+  <img src="https://komarev.com/ghpvc/?username=privt00tfc-plex&color=blue">
+</p>
 
 ---
 
